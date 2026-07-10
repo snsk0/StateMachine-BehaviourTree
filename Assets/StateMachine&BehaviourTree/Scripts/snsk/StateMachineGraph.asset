@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 484b5f145ce5b224a8436bd5629ae302, type: 3}
+  m_Name: StateMachineGraph
+  m_EditorClassIdentifier: Assembly-CSharp::HFSM.StateMachineGraph
+  _nodes:
+  - _id: 5b1b748b53074d4081e3ecd00b0d1fa8
+    _name: State
+    _parentNodeId: 42ea22cbc21c4d4a8920196e85151e07
+    _initialChildNodeId: 
+    _stateTypeName: HFSM.StateTest`1, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    _position: {x: 362.93347, y: 149.46669}
+  - _id: d5b3b205a5804bafa23d2fb0de574def
+    _name: State
+    _parentNodeId: 
+    _initialChildNodeId: 
+    _stateTypeName: HFSM.StateTest`1, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    _position: {x: 855.99994, y: 410.66666}
+  - _id: d3e6e332c56d468ab57b804e732bef17
+    _name: State
+    _parentNodeId: 
+    _initialChildNodeId: 
+    _stateTypeName: HFSM.StateTest`1, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    _position: {x: 978.66675, y: 254.00006}
+  - _id: 8cf5d6ee5f454c61a5e68ca836b71848
+    _name: State
+    _parentNodeId: 
+    _initialChildNodeId: 
+    _stateTypeName: HFSM.StateTest`1, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    _position: {x: 355.59995, y: 128.2667}
+  - _id: 06146c07ff884e22b09c01fba904ad78
+    _name: State
+    _parentNodeId: 
+    _initialChildNodeId: 
+    _stateTypeName: 
+    _position: {x: 33.59999, y: -7.5999985}
+  - _id: d84efaed3f494aac832d876260c8b52d
+    _name: State
+    _parentNodeId: 
+    _initialChildNodeId: 
+    _stateTypeName: 
+    _position: {x: 73.600006, y: 134.40001}
+  - _id: 42ea22cbc21c4d4a8920196e85151e07
+    _name: State
+    _parentNodeId: 8cf5d6ee5f454c61a5e68ca836b71848
+    _initialChildNodeId: 
+    _stateTypeName: 
+    _position: {x: 326.00003, y: 129.06676}
+  _transitions: []
+  _entryNodeId: 5b1b748b53074d4081e3ecd00b0d1fa8
+  _contextTypeName: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
